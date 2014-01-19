@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="thickbar">&lt;style name=&quot;CustomProgressBarHorizontal&quot; parent=&quot;android:Widget.ProgressBar.Horizontal&quot;&gt;</style>
+
+    <color name="gray">#eaeaea</color>
+    <color name="red">#ee0000</color>
+    <color name="titlebackgroundcolor">#00abd7</color>
+    <color name="titlecolor">#666666</color>
+</resources>

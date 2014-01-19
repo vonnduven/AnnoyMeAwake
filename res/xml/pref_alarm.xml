@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="alarm_settings"
+        android:title="Alarm Settings" >
+        <CheckBoxPreference
+            android:key="alarmToggle"
+            android:title="Alarm On" />
+
+        <com.example.util.TimePreference
+            android:defaultValue="12:00"
+            android:dependency="alarmToggle"
+            android:key="timePreference"
+            android:summary="Test"
+            android:title="Time" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefVibrate"
+            android:title="Vibrate" />
+
+        <EditTextPreference
+            android:key="namePreference"
+            android:summary="test"
+            android:title="Name" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
